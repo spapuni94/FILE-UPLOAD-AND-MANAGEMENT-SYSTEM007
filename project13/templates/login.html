@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="red">
+    <center>
+        <h1 style="color: chartreuse;">WELCOME TO AAS PRIVATE LIMITED</h1>
+        <form method="post">
+            {% csrf_token %}
+            <h3>User Name</h3> 
+            <input type="text" name="un"> <br><br>
+           <h3>Password:-</h3>  
+            <input type="text" name='pw'> <br><br>
+            <input type="submit" value="Login">
+        </form>
+    </center>
+</body>
+</html>
